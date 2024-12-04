@@ -1,8 +1,8 @@
 name: Collect
 on:
-  #  Runs at 6 minutes past the hour, every 2 hours, starting at 18:00.
+  #  Runs at 51 minutes past the hour, every 2 hours, starting at 17:00.
   schedule:
-    - cron: "6 18/2 * * *"
+    - cron: "51 17/2 * * *"
   workflow_dispatch:
 
 concurrency:
